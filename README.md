@@ -34,11 +34,8 @@ require 'vendor/autoload.php';
 Just set search engine and pass query string as an array
 
 ```php
-// reference the SearchEngine Class
-use developer53\GoogleSearch;
-
 // instantiate and use the SearchEngine class
-$client = new SearchEngine();
+$client = new \SearchEngine\SearchEngine();
 
 // set enginge name google.ae or google.com
 $client->setEngine('google.ae');
