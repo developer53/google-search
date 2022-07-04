@@ -1,0 +1,19 @@
+{
+    "name": "developer53/google-search",
+    "description": "Crawl google.com or google.ae search engine results and extracting metadata for a set of keywords.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Developer53\\GoogleSearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mufaddal",
+            "email": "sabirmufaddal@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    }
+}
