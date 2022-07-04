@@ -7,7 +7,7 @@ Scrap google search result.
 
  ## Requirements
 
- * PHP version 7.1 or higher
+ * PHP version 7.2 or higher
 
  ## Easy Installation
 
