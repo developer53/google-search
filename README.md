@@ -35,7 +35,7 @@ Just set search engine and pass query string as an array
 
 ```php
 // reference the SearchEngine Class
-require_once './google-search/src/google-search.php';
+use developer53\GoogleSearch;
 
 // instantiate and use the SearchEngine class
 $client = new SearchEngine();

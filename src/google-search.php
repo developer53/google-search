@@ -1,4 +1,5 @@
 <?php
+namespace developer53\GoogleSearch;
 /**
  * Search engine class.
  *
