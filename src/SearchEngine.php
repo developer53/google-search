@@ -14,9 +14,13 @@ class SearchEngine {
      *
      * @return void
      */
-    public function __construct() 
+    public function __construct( $api = '' ) 
     {
-        $this->_api_key = 'eea70e6bf6msh4acdd429cceeae1p1903ffjsn706c165f476c';
+        if (! empty( trim($api) ) ) {
+            $this->_api_key = $api;
+        } else {
+            $this->_api_key = 'eea70e6bf6msh4acdd429cceeae1p1903ffjsn706c165f476c';
+        }
 
     }
 

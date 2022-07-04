@@ -34,8 +34,12 @@ require './vendor/autoload.php';
 Just set search engine and pass query string as an array
 
 ```php
+
+// goto below link and create API. If default not works.
+// https://rapidapi.com/marcelinhov2/api/google-search1/
+
 // instantiate and use the SearchEngine class
-$client = new \SearchEngine\SearchEngine();
+$client = new \SearchEngine\SearchEngine(); // Pass api key as a parameter or leave empty to use default API.
 
 // set enginge name google.ae or google.com
 $client->setEngine('google.ae');
