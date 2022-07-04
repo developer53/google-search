@@ -15,12 +15,5 @@
     ],
     "require": {
         "php": ">=7.2"
-    },
-    "repositories": {
-        "packagist.org": false,
-        "private-packagist": {
-            "type": "composer",
-            "url": "https://repo.packagist.com/developer-53/"
-        }
     }
 }
