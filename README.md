@@ -34,7 +34,7 @@ require 'vendor/autoload.php';
 Just set search engine and pass query string as an array
 
 ```php
-// reference the Dompdf namespace
+// reference the SearchEngine Class
 require_once './google-search/src/google-search.php';
 
 // instantiate and use the SearchEngine class
