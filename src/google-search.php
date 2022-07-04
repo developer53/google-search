@@ -1,10 +1,6 @@
 <?php
 namespace SearchEngine;
-/**
- * Search engine class.
- *
- * @package GoogleSearch
- */
+
 class SearchEngine {
 
     private $_keywords;
